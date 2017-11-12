@@ -3,7 +3,7 @@
         <h4>Menu Plan</h4>
         <v-container grid-list-md>
             <v-layout row wrap>
-                <v-flex md4 v-for="(value, key) in days">
+                <v-flex md6 v-for="(value, key) in days">
                     <v-card class="ma-2 pa-2">
                         <draggable :id="key" v-model="recipes" :options="{group:'recipes'}" @start="drag=true" 
                             @end="drag=false" @add="newRecipe">

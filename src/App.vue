@@ -71,12 +71,12 @@
 <style>
   #recipes-card {
     min-height: 600px;
-    width: 25%;
+    width: 50%;
   }
 
    #menu-plan-card {
      min-height: 600px;
-     width: 75%;
+     width: 50%;
    }
 </style>
 
