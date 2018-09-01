@@ -1,0 +1,12 @@
+version: "2"
+services:
+  node:
+    build: ./
+    command: npm run docker
+    volumes:
+      - .:/usr/app/
+      - ./node_modules:/usr/app/node_modules
+    ports:
+      - "80:80"
+    environment:
+      - NODE_ENV=production

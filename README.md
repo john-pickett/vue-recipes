@@ -4,6 +4,16 @@
 
 ## Build Setup
 
+##### With docker
+
+```bash
+docker-compose up
+
+docker-compose down
+```
+
+##### With npm
+
 ``` bash
 # install dependencies
 npm install
